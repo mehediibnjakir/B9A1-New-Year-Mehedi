@@ -2,3 +2,51 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.container-heading * {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header related design */
+.banner-img {
+    background-image: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* background-size: cover; */
+    width: 85%;
+    width: 1320px;
+    height: 600px;
+    margin: 20px auto 120px auto;
+    border-radius: 16px;
+}
+
+.banner-text {
+    display: block;
+    padding: 150px 340px ;
+    align-items: center;
+    gap: 0;
+    text-shadow: 15px 10px 20px black;
+}
+
+.banner-text-small {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 340px;
+    margin-bottom: 15px;
+    /* line-height: normal; */
+    /* margin-top: 180px; */
+    /* padding-bottom: 16px; */
+}
+
+.banner-text-big {
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    width: 85%;
+    font-weight: 900;
+    margin-top: 0px;
+    padding-left: 35px;
+}
+/* discount selector style */
+
