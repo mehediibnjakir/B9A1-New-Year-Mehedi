@@ -22,7 +22,7 @@ font-family: 'Merriweather', serif; */
 
 .banner-text {
     display: block;
-    padding: 150px 340px ;
+    padding: 150px 340px;
     align-items: center;
     gap: 0;
     text-shadow: 15px 10px 20px black;
@@ -48,5 +48,58 @@ font-family: 'Merriweather', serif; */
     margin-top: 0px;
     padding-left: 35px;
 }
-/* discount selector style */
 
+/* discount section style */
+.new-year-dis {
+    width: 85%;
+    max-width: 1600px;
+    height: 7335px;
+    margin: 120px auto;
+    text-align: center;
+    /* work for div align center: text-align: center; */
+}
+
+.section1 {
+    display: block;
+    background: #FFF;
+    font-family: Inter;
+    /* margin: 120px auto; */
+}
+
+.section1 .discount-text .off {
+    color: #F00;
+    /* font-family: Inter; */
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.section1 .discount-text .tomato {
+    color: #F00;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.section1 .discount-text .category {
+    color: #070211;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.section1 .new-year-img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* party section 02 style */
