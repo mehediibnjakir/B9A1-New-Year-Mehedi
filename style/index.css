@@ -14,7 +14,7 @@ font-family: 'Merriweather', serif; */
     background-repeat: no-repeat;
     /* position: relative; */
     /* background-size: cover; */
-    width: 85%;
+    width: 100%;
     width: 1320px;
     height: 600px;
     margin: 20px auto 120px auto;
@@ -44,7 +44,7 @@ font-family: 'Merriweather', serif; */
     color: #FFF;
     text-align: center;
     font-size: 65px;
-    width: 85%;
+    width: 100%;
     font-weight: 900;
     margin-top: 0px;
     padding-left: 35px;
@@ -52,9 +52,9 @@ font-family: 'Merriweather', serif; */
 
 /*section 01: style for 65% Discount   */
 .new-year-dis {
-    width: 85%;
+    width: 100%;
     max-width: 1600px;
-    height: 7335px;
+    height: 850px;
     margin: 0px auto 120px auto;
     text-align: center;
     /* work for div align center: text-align: center; */
@@ -105,7 +105,7 @@ font-family: 'Merriweather', serif; */
 .wel-party {
     background-image: url("../images/Vectorrr.png");
     background-repeat: no-repeat;
-    width: 85%;
+    width: 100%;
     width: 1320px;
     height: 600px;
     margin: 0px auto 120px auto;
@@ -146,7 +146,6 @@ font-family: 'Merriweather', serif; */
 }
 
 .party-time .party-text .join {
-    background-color: ;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -169,21 +168,22 @@ font-family: 'Merriweather', serif; */
 /* style for portfolio section */
 
 .style-portfolio {
-    width: 85%;
-    /* height: 85%; */
-    max-width: 1600px;
-    max-height: 7335px;
+    width: 100%;
+    height: 100%;
+    width: 1600px;
+    height: 1150px;
     margin: 0px auto 120px auto;
-    padding-left: 200px;
     /* text-align: center; */
-}
-
-.style-portfolio .portfolio {
-    display: block;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     align-items: center;
 }
 
+.portfolio .port-text {
+    display: block;
+    justify-content: left;
+    align-items: left;
+}
 
 .portfolio .port-text .tomato {
     color: #F00;
@@ -201,7 +201,7 @@ font-family: 'Merriweather', serif; */
 }
 
 .portfolio .port-text .p-text {
-    width: 85%;
+    width: 100%;
     max-width: 896px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
