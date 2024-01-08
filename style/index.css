@@ -167,6 +167,42 @@ font-family: 'Merriweather', serif; */
 
 /* Style for Event time sections" */
 
+.event-time {
+    background: linear-gradient(to bottom, #fde4e4, transparent);
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto 120px auto;
+    border-radius: 16px;
+    font-family: Inter;
+}
+
+.event-time .evetn-text  .span-color{
+    color: #F00;
+text-align: center;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px; /* 175% */
+}
+.event-time .evetn-text .pdt {
+    color: #070211;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+}
+.event-time .evetn-text .join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: 1px solid white;
+}
 
 
 /* style for portfolio section */
@@ -227,9 +263,10 @@ font-family: 'Merriweather', serif; */
 }
 
 .portfolio .pot-img .line1 {
-    display: flex;
-    
+    display: flex; 
 }
 .portfolio .pot-img .line2 {
     display: flex;
 }
+
+
