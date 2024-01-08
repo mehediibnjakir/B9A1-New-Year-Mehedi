@@ -363,15 +363,15 @@ font-family: 'Merriweather', serif; */
     /* 160% */
 }
 
-.newsletter  form {
+.newsletter form {
     width: 700px;
-    margin: 20px  auto;
+    margin: 20px auto;
     height: 72px;
     display: flex;
-    
+
 }
 
-.newsletter  form input {
+.newsletter form input {
     /* width: 600px; */
     flex-grow: 1;
     border: none;
@@ -380,6 +380,7 @@ font-family: 'Merriweather', serif; */
     font-size: larger;
     /* outline: none; */
 }
+
 /* input:hover {
     transform: scale(.9);
     z-index: 1;
@@ -397,4 +398,21 @@ font-family: 'Merriweather', serif; */
 #join-sub:hover {
     transform: scale(.9);
     z-index: 1;
+}
+
+/* Footer Section Style CSS */
+
+.f-bannner {
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.lair1 {
+    display: flex;
+    justify-content: space-around;
 }
