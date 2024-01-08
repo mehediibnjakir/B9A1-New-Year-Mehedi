@@ -10,7 +10,7 @@ font-family: 'Merriweather', serif; */
 
 /* Header related design */
 .banner-img {
-    background-image: url("../images/Banner-Image.png");
+    background-image: linear-gradient( black, transparent), url("../images/Banner-Image.png");
     background-repeat: no-repeat;
     /* position: relative; */
     /* background-size: cover; */
@@ -103,13 +103,13 @@ font-family: 'Merriweather', serif; */
 /*  section 02 style "Mid Night party" */
 
 .wel-party {
-    background-image: url("../images/Vectorrr.png");
+    background-image: linear-gradient(to right, black, transparent), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     width: 100%;
     width: 1320px;
     height: 600px;
     margin: 0px auto 120px auto;
-    /* border-radius: 16px; */
+    border-radius: 16px;
     margin-top: 0;
     background-position: top;
 
@@ -164,6 +164,10 @@ font-family: 'Merriweather', serif; */
     transition: 0.8s;
     color: #fff;
 }
+
+/* Style for Event time sections" */
+
+
 
 /* style for portfolio section */
 
