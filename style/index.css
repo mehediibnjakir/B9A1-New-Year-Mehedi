@@ -410,9 +410,28 @@ font-family: 'Merriweather', serif; */
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
+    padding: 120px;
 }
 
 .lair1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.adress {
+    color: #FFF;
+    width: 375px;
+    font-size: 24px;
+    font-weight: 500;
+    /* 166.667% */
+    padding-top: 10px;
+}
+.contact li {
+    list-style: none;
+    margin-top: 10px;
+}
+.contact a {
+    text-decoration: none;
+    color: #FFF;
 }
