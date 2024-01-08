@@ -178,19 +178,26 @@ font-family: 'Merriweather', serif; */
     font-family: Inter;
 }
 
+.event-time .evetn-text div {
+    display: grid;
+    place-items: center;
+    padding-top: 40px;
+}
+
 .event-time .evetn-text  .span-color{
     color: #F00;
 text-align: center;
 font-size: 32px;
 font-weight: 600;
-line-height: 56px; /* 175% */
+line-height: 0px; /* 175% */
 }
 .event-time .evetn-text .pdt {
     color: #070211;
 font-size: 32px;
 font-weight: 600;
-line-height: 56px;
+line-height: 30px;
 }
+
 .event-time .evetn-text .join {
     color: #FFF;
     text-align: center;
@@ -204,8 +211,15 @@ line-height: 56px;
     border: 1px solid white;
 }
 
+.join:hover {
+    cursor: pointer;
+    margin: 0px 5px;
+    transition: 0.8s;
+    color: #fff;
+}
 
-/* style for portfolio section */
+
+/* style for "Our portfolio - section" */
 
 .style-portfolio {
     width: 100%;
@@ -219,10 +233,15 @@ line-height: 56px;
     align-items: center;
 }
 
+.portfolio > div {
+    display: block;
+}
+
 .portfolio .port-text {
     display: block;
     justify-content: left;
     align-items: left;
+    padding-left: 20px;
 }
 
 .portfolio .port-text .tomato {
@@ -253,20 +272,20 @@ line-height: 56px;
     margin-bottom: 45px;
 }
 
-.portfolio .pot-img {
-    display: inline;
-    justify-content: center;
-    width: 424px;
-    height: 450px;
-    border-radius: 16px;
-    margin-bottom: 20px;
-}
+/* portfolio img style */
 
-.portfolio .pot-img .line1 {
-    display: flex; 
-}
-.portfolio .pot-img .line2 {
+.portfolio .potfolio-img > .line1, .line2  {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
+.portfolio .potfolio-img > .line1 > div {
+    padding-right: 20px;
+}
+.portfolio .potfolio-img > .line2 > div {
+    padding-right: 20px;
+}
 
