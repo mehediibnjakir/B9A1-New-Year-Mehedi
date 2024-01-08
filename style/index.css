@@ -10,7 +10,7 @@ font-family: 'Merriweather', serif; */
 
 /* Header related design */
 .banner-img {
-    background-image: linear-gradient( black, transparent), url("../images/Banner-Image.png");
+    background-image: linear-gradient(black, transparent), url("../images/Banner-Image.png");
     background-repeat: no-repeat;
     /* position: relative; */
     /* background-size: cover; */
@@ -112,7 +112,6 @@ font-family: 'Merriweather', serif; */
     border-radius: 16px;
     margin-top: 0;
     background-position: top;
-
 }
 
 .party-time {
@@ -169,7 +168,7 @@ font-family: 'Merriweather', serif; */
 
 .event-time {
     background: linear-gradient(to bottom, #fde4e4, transparent);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     width: 100%;
     width: 1320px;
     height: 600px;
@@ -184,18 +183,20 @@ font-family: 'Merriweather', serif; */
     padding-top: 40px;
 }
 
-.event-time .evetn-text  .span-color{
+.event-time .evetn-text .span-color {
     color: #F00;
-text-align: center;
-font-size: 32px;
-font-weight: 600;
-line-height: 0px; /* 175% */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0px;
+    /* 175% */
 }
+
 .event-time .evetn-text .pdt {
     color: #070211;
-font-size: 32px;
-font-weight: 600;
-line-height: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .event-time .evetn-text .join {
@@ -229,9 +230,10 @@ line-height: 30px;
     display: grid;
     place-items: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
-.portfolio > div {
+.portfolio>div {
     display: block;
 }
 
@@ -272,7 +274,8 @@ line-height: 30px;
 
 /* portfolio img style */
 
-.portfolio .potfolio-img > .line1, .line2  {
+.portfolio .potfolio-img>.line1,
+.line2 {
     width: 100%;
     padding: 15px;
     margin: auto;
@@ -280,12 +283,15 @@ line-height: 30px;
     flex-direction: row;
     justify-content: center;
 }
-.portfolio .potfolio-img > .line1 > div {
+
+.portfolio .potfolio-img>.line1>div {
     padding-right: 20px;
 }
-.portfolio .potfolio-img > .line2 > div {
+
+.portfolio .potfolio-img>.line2>div {
     padding-right: 20px;
 }
+
 /* hover effect apply on images */
 .box {
     width: 424px;
@@ -294,16 +300,78 @@ line-height: 30px;
     margin: auto;
     /* box-shadow: 0 0 5px 2px rgba(0, 0, 0, .1); */
     transition: 0.8s;
-} 
+}
+
 .box img {
     display: block;
     width: 100%;
     border-radius: 5px;
 }
+
 .box:hover {
     transform: scale(1.3);
     z-index: 1;
 }
 
+/* Section 6: Style of Subscriber Newsletter  */
 
+.subscriber {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 100%;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    margin: 120px auto;
+}
 
+.newsletter {
+    display: grid;
+    place-items: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    margin: 80px auto;
+}
+
+.newsletter .email-img {
+    height: 100%;
+    width: 100;
+    width: 130px;
+    height: 100px;
+    padding-top: 80px;
+}
+
+.newsletter .sub-head {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter .p-subtext {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 25px 220px 50px 220px;
+    /* line-height: 32px; */
+    /* 160% */
+}
+
+.subscriber > .sub-bar {
+    border-radius: 50px;
+    background: #FFF;
+    width: 700px;
+    height: 80px;
+    width: 100%;
+    margin: 0px 220px;
+    /* border-radius: 50px 0px 0px 50px; */
+}
+
+#join-sub {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
