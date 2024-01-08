@@ -35,9 +35,6 @@ font-family: 'Merriweather', serif; */
     font-size: 32px;
     font-weight: 340px;
     margin-bottom: 15px;
-    /* line-height: normal; */
-    /* margin-top: 180px; */
-    /* padding-bottom: 16px; */
 }
 
 .banner-text-big {
@@ -47,7 +44,6 @@ font-family: 'Merriweather', serif; */
     width: 100%;
     font-weight: 900;
     margin-top: 0px;
-    padding-left: 35px;
 }
 
 /*section 01: style for 65% Discount   */
