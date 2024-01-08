@@ -226,11 +226,9 @@ font-family: 'Merriweather', serif; */
     width: 1600px;
     height: 1150px;
     margin: 0px auto 120px auto;
-    /* text-align: center; */
     display: grid;
     place-items: center;
     align-items: center;
-    margin-bottom: 120px;
 }
 
 .portfolio>div {
@@ -315,7 +313,7 @@ font-family: 'Merriweather', serif; */
 
 /* Section 6: Style of Subscriber Newsletter  */
 
-.subscriber {
+.newsletter {
     background-color: rgba(255, 0, 0, 0.05);
     width: 100%;
     width: 1320px;
@@ -325,53 +323,78 @@ font-family: 'Merriweather', serif; */
 }
 
 .newsletter {
+    padding: 120px auto;
+}
+
+
+.container {
     display: grid;
     place-items: center;
     /* align-items: center; */
     /* text-align: center; */
-    margin: 80px auto;
+    /* margin: 80px 0; */
 }
 
-.newsletter .email-img {
+.container .email-img {
     height: 100%;
-    width: 100;
     width: 130px;
-    height: 100px;
-    padding-top: 80px;
+    height: 110px;
+    padding-top: 100px;
 }
 
-.newsletter .sub-head {
+.container .sub-head {
     color: #070211;
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin: 40px 0px 0px 0px;
 }
 
-.newsletter .p-subtext {
+.container .p-subtext {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    margin: 25px 220px 50px 220px;
+    padding: 20px 0;
+    margin: 0 220px;
     /* line-height: 32px; */
     /* 160% */
 }
 
-.subscriber > .sub-bar {
-    border-radius: 50px;
-    background: #FFF;
+.newsletter  form {
     width: 700px;
-    height: 80px;
-    width: 100%;
-    margin: 0px 220px;
-    /* border-radius: 50px 0px 0px 50px; */
+    margin: 20px  auto;
+    height: 72px;
+    display: flex;
+    
 }
 
+.newsletter  form input {
+    /* width: 600px; */
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 20px;
+    font-size: larger;
+    /* outline: none; */
+}
+/* input:hover {
+    transform: scale(.9);
+    z-index: 1;
+} */
 #join-sub {
     width: 210px;
     height: 72px;
+    border: none;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    font-size: larger;
+    color: white;
+}
+
+#join-sub:hover {
+    transform: scale(.9);
+    z-index: 1;
 }
