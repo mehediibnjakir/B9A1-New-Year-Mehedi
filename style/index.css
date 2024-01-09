@@ -401,8 +401,8 @@ font-family: 'Merriweather', serif; */
     width: 100%;
     justify-content: left baseline;
     align-items: left baseline;
-    padding-left: 58px;
-    padding-bottom: 90px;
+    padding-left: 55px;
+    padding-bottom: 100px;
 }
 
 .img-div3 img {
@@ -410,13 +410,6 @@ font-family: 'Merriweather', serif; */
     height: 450px;
     border-radius: 16px 16px 0px 0px;
 }
-
-
-
-
-
-
-
 
 /* style for "Our portfolio - section" */
 
