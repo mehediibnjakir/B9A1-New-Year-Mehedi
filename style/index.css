@@ -306,6 +306,112 @@ font-family: 'Merriweather', serif; */
     height: 140px;
 }
 
+#img-circle:hover {
+    transform: scale(1.1);
+}
+
+
+/*  Section Bonus: style for holiday sale */
+
+.holiday {
+    display: grid;
+    place-items: center;
+    width: 1320px;
+    height: 1200px;
+    margin: 0px auto 120px auto;
+    border-bottom: 230px solid red;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.holy-banner .holy-img {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.holi-text {
+    /* text-align: center; */
+    padding: 0px;
+    margin: 0px;
+}
+
+.holi-text .tomato {
+    color: #070211;
+    font-family: Inter;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holi-text .port-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.tomtom {
+    color: #F00;
+}
+
+.holi-text .p-text {
+    color: rgba(7, 2, 17, 0.60);
+    width: 900px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    margin: 0px 0px 0px 0px;
+}
+
+.holi-banner>.holi-img {
+    margin-top: 0;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-div1 {
+    width: 100%;
+    justify-content: left baseline;
+    align-items: left baseline;
+    padding-top: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.img-div1 img {
+    width: 800px;
+    height: 600px;
+}
+
+.img-div3 {
+    width: 100%;
+    justify-content: left baseline;
+    align-items: left baseline;
+    padding-left: 58px;
+    padding-bottom: 90px;
+}
+
+.img-div3 img {
+    width: 450px;
+    height: 450px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
 
 
 
@@ -319,7 +425,7 @@ font-family: 'Merriweather', serif; */
     /* height: 100%; */
     width: 1600px;
     height: 1150px;
-    margin: 0px auto 240px auto;
+    margin: 240px auto 240px auto;
 
     /* align-items: center; */
 
@@ -437,7 +543,7 @@ font-family: 'Merriweather', serif; */
 .container .email-img {
     height: 100%;
     width: 130px;
-    height: 110px;
+    height: 140px;
     padding-top: 100px;
 }
 
